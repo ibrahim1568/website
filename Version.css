@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 8px solid rgb(33, 133, 216);
+  padding-top: 20px;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: rgb(34, 34, 128);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background-color: rgb(17, 92, 153);
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+.name {
+  margin-top: 120px;
+  background-color: whitesmoke;
+  height: 40px;
+  width: 100%;
+  padding-left: 300px;
+  padding-top: 6px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(20, 20, 97);
+}
+
+.container {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 28px;
+}
+
+.side {
+  width: 300px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: 16px;
+  padding: 12px;
+  font-weight: 500;
+}
+
+.grade {
+  width: 900px;
+  height: 800px;
+  margin: 16px;
+  padding: 12px;
+}
+
+.titles {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.desc {
+  margin-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+
+li {
+  margin-bottom: 14px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.POINT {
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.sced {
+  margin-top: 4px;
+}
+
+.Grades {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+.category {
+  margin-right: 594px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.percent {
+  margin-right: 52px;
+}
+
+.total_grade {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.category2 {
+  margin-right: 544px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.percent2 {
+  margin-right: 60px;
+}
+
+
+.category3 {
+  margin-right: 582px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.percent3 {
+  margin-right: 62px;
+}
+
+
+.category4 {
+  margin-right: 586px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.percent4 {
+  margin-right: 50px;
+}
+
+
+.category5 {
+  margin-right: 600px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.percent5 {
+  margin-right: 24px;
+}
